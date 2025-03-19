@@ -22,14 +22,14 @@ A Blazor WebAssembly project that includes a reusable menu component.
    cd blazor-menu-project
 
 2. **Restore dependencies**:
-
    ```sh
+   
 dotnet restore
 
 3. **Run the applications**:
-
    ```sh
-dotnet run --project sample-app
+   dotnet run --project sample-app
+
 
 4. Open http://localhost:5000 in your browser.
 
