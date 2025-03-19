@@ -23,12 +23,12 @@ A Blazor WebAssembly project that includes a reusable menu component.
 
 2. **Restore dependencies**:
 
-sh
+   ```sh
 dotnet restore
 
 3. **Run the applications**:
 
-sh
+   ```sh
 dotnet run --project sample-app
 
 4. Open http://localhost:5000 in your browser.
