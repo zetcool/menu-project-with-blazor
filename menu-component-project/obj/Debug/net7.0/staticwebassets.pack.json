@@ -1,18 +1,6 @@
 {
   "Files": [
     {
-      "Id": "c:\\Users\\zetco\\Documents\\GitHub\\menu-project-with-blazor\\menu-component-project\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
-      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
-    },
-    {
-      "Id": "c:\\Users\\zetco\\Documents\\GitHub\\menu-project-with-blazor\\menu-component-project\\obj\\Debug\\net7.0\\build-gz\\7Dy6p4XD.gz",
-      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
-    },
-    {
-      "Id": "c:\\Users\\zetco\\Documents\\GitHub\\menu-project-with-blazor\\menu-component-project\\obj\\Debug\\net7.0\\scopedcss\\bundle\\menu-component-project.styles.css",
-      "PackagePath": "staticwebassets\\menu-component-project.styles.css"
-    },
-    {
       "Id": "c:\\Users\\zetco\\Documents\\GitHub\\menu-project-with-blazor\\menu-component-project\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },

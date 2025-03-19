@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Users\\zetco\\Documents\\GitHub\\menu-project-with-blazor\\sample-app\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "c:\\Users\\zetco\\Documents\\GitHub\\menu-project-with-blazor\\sample-app\\obj\\Debug\\net7.0\\build-gz\\7Dy6p4XD.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "c:\\Users\\zetco\\Documents\\GitHub\\menu-project-with-blazor\\sample-app\\obj\\Debug\\net7.0\\scopedcss\\bundle\\sample-app.styles.css",
+      "PackagePath": "staticwebassets\\sample-app.styles.css"
+    },
+    {
+      "Id": "c:\\Users\\zetco\\Documents\\GitHub\\menu-project-with-blazor\\sample-app\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "c:\\Users\\zetco\\Documents\\GitHub\\menu-project-with-blazor\\sample-app\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.sample-app.props",
+      "PackagePath": "build\\sample-app.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.sample-app.props",
+      "PackagePath": "buildMultiTargeting\\sample-app.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.sample-app.props",
+      "PackagePath": "buildTransitive\\sample-app.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.sample-app.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
