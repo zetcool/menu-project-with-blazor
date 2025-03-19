@@ -23,8 +23,8 @@ A Blazor WebAssembly project that includes a reusable menu component.
 
 2. **Restore dependencies**:
    ```sh
+   dotnet restore
    
-dotnet restore
 
 3. **Run the applications**:
    ```sh
