@@ -1,0 +1,43 @@
+<div class="menu-item" @onmouseenter="ToggleOnSubMenu" @onmouseleave="ToggleOffSubMenu">
+    <a href="@Url">
+        @Text
+        @if (ChildContent != null)
+        {
+            <span class="arrow fa-solid @(Parent ? "fa-caret-down" : "fa-caret-right")"></span>
+        }
+    </a>
+    @if (IsSubMenuVisible && ChildContent != null)
+    {
+        <div class="submenu">
+            @ChildContent
+        </div>
+    }
+</div>
+
+
+@code {
+    [Parameter] public string Text { get; set; }
+    [Parameter] public string Url { get; set; }
+    [Parameter] public Boolean Parent { get; set; }
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+
+    @* [CascadingParameter] public Menu? ParentMenu { get; set; } *@
+
+    @* protected override void OnInitialized()
+    {
+        ParentMenu?.RegisterMenuItem(this);
+    } *@
+
+    public bool IsSubMenuVisible { get; set; } = false;
+
+    public void ToggleOnSubMenu()
+    {
+        IsSubMenuVisible = true;
+    }
+
+    public void ToggleOffSubMenu()
+    {
+        IsSubMenuVisible = false;
+    }
+
+}

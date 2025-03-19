@@ -1,0 +1,25 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    <main>
+        <div class="menu-container">
+            <Menu>
+                <MenuItem Text="Item 1" Parent="true">
+                    <MenuItem Text="Item 1.1" Url="/item1-1" />
+                    <MenuItem Text="Item 1.2">
+                        <MenuItem Text="Item 1.2.1" Url="/item1-2-1" />
+                        <MenuItem Text="Item 1.2.2" Url="/item1-2-2" />
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Text="Item 2" Parent="true">
+                    <MenuItem Text="Item 2.1" Url="/item2-1" />
+                    <MenuItem Text="Item 2.2">
+                        <MenuItem Text="Item 2.2.1" Url="/item1-2-1" />
+                        <MenuItem Text="Item 2.2.2" Url="/item1-2-2" />
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Text="Item 3" Url="/item3" />
+            </Menu>
+        </div>
+    </main>
+</div>
